@@ -1,0 +1,17 @@
+Mpd4/db/
+Mpd4/greybox_tmp/
+Mpd4/incremental_db/
+Mpd4/*.map
+Mpd4/*.pof
+Mpd4/Fpga_3_8tap.v
+Mpd4/Fpga_3_10tap.v
+Mpd4/Fpga_3_12tap.v
+Mpd4/Fpga_3_16tap.v
+Mpd4/Fpga_3_Fir_150424.*
+Mpd4/Fpga_3_Fir*_150520.*
+Mpd4/Fpga_3_Fir*_150805.*
+Mpd4/Fpga_020413.sdc
+Mpd4/Fpga3_Mpd4.qarlog
+Mpd4/Fpga3_Mpd4_150914.qar
+Mpd4/Fpga3_Mpd4_150914.zip
+Mpd4/zzz*
