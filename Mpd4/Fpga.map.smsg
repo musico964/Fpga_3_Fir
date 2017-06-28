@@ -1,0 +1,13 @@
+Info (10281): Verilog HDL Declaration information at ChannelProcessor.v(323): object "NO_MORE_SPACE" differs only in case from object "no_more_space" in the same scope
+Warning (10273): Verilog HDL warning at ChannelProcessor.v(532): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at AdcHisto.v(30): extended using "x" or "z"
+Warning (10268): Verilog HDL information at i2c_master_bit_ctrl.v(205): always construct contains both blocking and non-blocking assignments
+Warning (10273): Verilog HDL warning at i2c_master_top.v(128): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at AdcConfig.v(30): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at VmeSlaveIf.v(181): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at VmeSlaveIf.v(187): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at VmeSlaveIf.v(192): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at VmeSlaveIf.v(194): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at VmeSlaveIf.v(196): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at VmeSlaveIf.v(197): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at VmeSlaveIf.v(198): extended using "x" or "z"

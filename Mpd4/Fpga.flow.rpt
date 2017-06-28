@@ -1,0 +1,223 @@
+Flow report for Fpga
+Tue Nov 10 12:27:23 2015
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Flow Summary                                                                      ;
++--------------------------------+--------------------------------------------------+
+; Flow Status                    ; Successful - Tue Nov 10 12:27:02 2015            ;
+; Quartus II 64-Bit Version      ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name                  ; Fpga                                             ;
+; Top-level Entity Name          ; Fpga                                             ;
+; Family                         ; Arria GX                                         ;
+; Device                         ; EP1AGX60DF780C6                                  ;
+; Timing Models                  ; Final                                            ;
+; Logic utilization              ; 57 %                                             ;
+;     Combinational ALUTs        ; 20,156 / 48,080 ( 42 % )                         ;
+;     Dedicated logic registers  ; 15,223 / 48,080 ( 32 % )                         ;
+; Total registers                ; 15283                                            ;
+; Total pins                     ; 312 / 395 ( 79 % )                               ;
+; Total virtual pins             ; 0                                                ;
+; Total block memory bits        ; 1,268,864 / 2,528,640 ( 50 % )                   ;
+; DSP block 9-bit elements       ; 256 / 256 ( 100 % )                              ;
+; Total GXB Receiver Channels    ; 1 / 8 ( 13 % )                                   ;
+; Total GXB Transmitter Channels ; 1 / 8 ( 13 % )                                   ;
+; Total PLLs                     ; 2 / 4 ( 50 % )                                   ;
+; Total DLLs                     ; 0 / 2 ( 0 % )                                    ;
++--------------------------------+--------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/10/2015 12:05:36 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Fpga                ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                           ;
++---------------------------------------------------+----------------------------------------+---------------+-------------+-----------------+
+; Assignment Name                                   ; Value                                  ; Default Value ; Entity Name ; Section Id      ;
++---------------------------------------------------+----------------------------------------+---------------+-------------+-----------------+
+; COMPILER_SIGNATURE_ID                             ; 172537024758973.144715353108648        ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; ALTMULT_ADD                            ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; LPM_ADD_SUB                            ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; FIFO                                   ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; FIFO                                   ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; FIFO                                   ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; ALTDDIO_IN                             ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; ALT2GXB                                ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; ALTPLL                                 ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; RAM: 1-PORT                            ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; RAM: 2-PORT                            ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; LPM_ADD_SUB                            ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; LPM_ADD_SUB                            ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; FIFO                                   ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; FIFO                                   ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; FIFO                                   ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; FIFO                                   ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; FIFO                                   ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; FIFO                                   ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; ALTPLL                                 ; --            ; --          ; --              ;
+; IP_TOOL_NAME                                      ; ALTCLKCTRL                             ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 13.0                                   ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 13.0                                   ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 8.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 8.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 11.1                                   ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 8.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 8.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 9.1                                    ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 12.1                                   ; --            ; --          ; --              ;
+; IP_TOOL_VERSION                                   ; 11.1                                   ; --            ; --          ; --              ;
+; MAX_CORE_JUNCTION_TEMP                            ; 85                                     ; --            ; --          ; --              ;
+; MIN_CORE_JUNCTION_TEMP                            ; 0                                      ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Fir_Modules/multadd.bsf             ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Fir_Modules/multadd_bb.v            ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Fir_Modules/add32.bsf               ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Fir_Modules/add32_bb.v              ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_2048x21.bsf         ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_2048x21_bb.v        ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_256x13.bsf          ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_256x13_bb.v         ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/ApvDataFifo_2048x12.bsf  ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/ApvDataFifo_2048x12_bb.v ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/DdrIn.bsf                ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/DdrIn_bb.v               ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/DdrIn.ppf                ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Gxb.vo                   ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Gxb.bsf                  ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Gxb_bb.v                 ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Gxb.ppf                  ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ./GlobalPll_bb.v                       ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ./GlobalPll.ppf                        ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/SpRam_4096x32.bsf        ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/SpRam_4096x32_bb.v       ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/DpRam128x12.bsf          ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/DpRam128x12_bb.v         ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Adder12.bsf              ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Adder12_bb.v             ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Sub13.bsf                ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Sub13_bb.v               ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/ApvDataFifo_1024x12.bsf  ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/ApvDataFifo_1024x12_bb.v ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_2048x24.bsf         ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_2048x24_bb.v        ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_16x48.bsf           ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_16x48_bb.v          ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_16x24.bsf           ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/Fifo_16x24_bb.v          ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/DcFifo_32x12.bsf         ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/DcFifo_32x12_bb.v        ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/ApvDataFifo_1024x13.bsf  ; --            ; --          ; --              ;
+; MISC_FILE                                         ; ../Mpd_Common/ApvDataFifo_1024x13_bb.v ; --            ; --          ; --              ;
+; MISC_FILE                                         ; P0CK_Pll_bb.v                          ; --            ; --          ; --              ;
+; MISC_FILE                                         ; P0CK_Pll.ppf                           ; --            ; --          ; --              ;
+; MISC_FILE                                         ; CK40_MUX_bb.v                          ; --            ; --          ; --              ;
+; OUTPUT_PIN_LOAD                                   ; 10                                     ; --            ; --          ; 3.3-V LVTTL     ;
+; OUTPUT_PIN_LOAD                                   ; 10                                     ; --            ; --          ; 2.5 V           ;
+; OUTPUT_PIN_LOAD                                   ; 10                                     ; --            ; --          ; LVDS            ;
+; OUTPUT_PIN_LOAD                                   ; 10                                     ; --            ; --          ; SSTL-18 CLASS I ;
+; PARTITION_COLOR                                   ; 16764057                               ; --            ; --          ; Top             ;
+; PARTITION_FITTER_PRESERVATION_LEVEL               ; PLACEMENT_AND_ROUTING                  ; --            ; --          ; Top             ;
+; PARTITION_NETLIST_TYPE                            ; SOURCE                                 ; --            ; --          ; Top             ;
+; PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING ; On                                     ; Off           ; --          ; --              ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC                    ; On                                     ; Off           ; --          ; --              ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC_FOR_AREA           ; On                                     ; Off           ; --          ; --              ;
+; PHYSICAL_SYNTHESIS_MAP_LOGIC_TO_MEMORY_FOR_AREA   ; On                                     ; Off           ; --          ; --              ;
+; PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION           ; On                                     ; Off           ; --          ; --              ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING              ; On                                     ; Off           ; --          ; --              ;
+; POWER_BOARD_THERMAL_MODEL                         ; None (CONSERVATIVE)                    ; --            ; --          ; --              ;
+; POWER_PRESET_COOLING_SOLUTION                     ; 15 MM HEAT SINK WITH 100 LFPM AIRFLOW  ; --            ; --          ; --              ;
+; PRE_FLOW_SCRIPT_FILE                              ; quartus_sh:SaveCompileTime.tcl         ; --            ; --          ; --              ;
+; SAFE_STATE_MACHINE                                ; On                                     ; Off           ; --          ; --              ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS                ; Off                                    ; --            ; --          ; eda_blast_fpga  ;
+; VERILOG_MACRO                                     ; SYNTH=<None>                           ; --            ; --          ; --              ;
+; VERILOG_SHOW_LMF_MAPPING_MESSAGES                 ; Off                                    ; --            ; --          ; --              ;
++---------------------------------------------------+----------------------------------------+---------------+-------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:01:22     ; 1.0                     ; 753 MB              ; 00:01:22                           ;
+; Fitter                    ; 00:19:32     ; 1.6                     ; 2010 MB             ; 00:26:56                           ;
+; Assembler                 ; 00:00:11     ; 1.0                     ; 612 MB              ; 00:00:10                           ;
+; TimeQuest Timing Analyzer ; 00:00:20     ; 1.0                     ; 949 MB              ; 00:00:20                           ;
+; Total                     ; 00:21:25     ; --                      ; --                  ; 00:28:48                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; nbmusico         ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; nbmusico         ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; nbmusico         ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; nbmusico         ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Fpga -c Fpga
+quartus_fit --read_settings_files=off --write_settings_files=off Fpga -c Fpga
+quartus_asm --read_settings_files=off --write_settings_files=off Fpga -c Fpga
+quartus_sta Fpga -c Fpga
+
+
+

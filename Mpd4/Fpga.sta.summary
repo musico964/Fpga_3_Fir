@@ -1,0 +1,357 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Ck_60MHz_virt'
+Slack : -30.244
+TNS   : -2115.203
+
+Type  : Slow Model Setup 'CLK_IN_P0'
+Slack : -26.697
+TNS   : -29714.430
+
+Type  : Slow Model Setup 'Ck_40MHz_virt'
+Slack : -25.662
+TNS   : -93.781
+
+Type  : Slow Model Setup 'Ck_10MHz_virt'
+Slack : -24.503
+TNS   : -92.197
+
+Type  : Slow Model Setup 'MASTER_CLOCK'
+Slack : -21.476
+TNS   : -22250.206
+
+Type  : Slow Model Setup 'MASTER_CLOCK2'
+Slack : -20.945
+TNS   : -21617.932
+
+Type  : Slow Model Setup 'n/a'
+Slack : -17.022
+TNS   : -18.878
+
+Type  : Slow Model Setup 'ADC_LCLK2'
+Slack : -8.038
+TNS   : -234.642
+
+Type  : Slow Model Setup 'ADC_LCLK1'
+Slack : -7.849
+TNS   : -227.426
+
+Type  : Slow Model Setup 'ADC_FRAME_CK1'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Slow Model Setup 'ADC_FRAME_CK2'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Slow Model Hold 'Ck_60MHz_virt'
+Slack : -22.176
+TNS   : -180.947
+
+Type  : Slow Model Hold 'Ck_40MHz_virt'
+Slack : -4.891
+TNS   : -11.303
+
+Type  : Slow Model Hold 'Ck_10MHz_virt'
+Slack : -3.714
+TNS   : -14.606
+
+Type  : Slow Model Hold 'CLK_IN_P0'
+Slack : -1.014
+TNS   : -16.829
+
+Type  : Slow Model Hold 'ADC_LCLK1'
+Slack : -0.792
+TNS   : -12.192
+
+Type  : Slow Model Hold 'ADC_LCLK2'
+Slack : -0.757
+TNS   : -11.591
+
+Type  : Slow Model Hold 'MASTER_CLOCK2'
+Slack : -0.731
+TNS   : -11.735
+
+Type  : Slow Model Hold 'MASTER_CLOCK'
+Slack : -0.200
+TNS   : -2.607
+
+Type  : Slow Model Hold 'ADC_FRAME_CK1'
+Slack : 0.490
+TNS   : 0.000
+
+Type  : Slow Model Hold 'ADC_FRAME_CK2'
+Slack : 0.490
+TNS   : 0.000
+
+Type  : Slow Model Hold 'n/a'
+Slack : 3.899
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'ADC_LCLK2'
+Slack : -6.602
+TNS   : -65.827
+
+Type  : Slow Model Recovery 'ADC_LCLK1'
+Slack : -6.404
+TNS   : -64.040
+
+Type  : Slow Model Recovery 'ADC_FRAME_CK2'
+Slack : -4.577
+TNS   : -2746.200
+
+Type  : Slow Model Recovery 'ADC_FRAME_CK1'
+Slack : -4.551
+TNS   : -2730.600
+
+Type  : Slow Model Recovery 'CLK_IN_P0'
+Slack : 2.296
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'MASTER_CLOCK'
+Slack : 2.600
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'MASTER_CLOCK2'
+Slack : 7.663
+TNS   : 0.000
+
+Type  : Slow Model Removal 'ADC_FRAME_CK1'
+Slack : 2.942
+TNS   : 0.000
+
+Type  : Slow Model Removal 'ADC_FRAME_CK2'
+Slack : 2.968
+TNS   : 0.000
+
+Type  : Slow Model Removal 'CLK_IN_P0'
+Slack : 3.596
+TNS   : 0.000
+
+Type  : Slow Model Removal 'MASTER_CLOCK'
+Slack : 3.596
+TNS   : 0.000
+
+Type  : Slow Model Removal 'MASTER_CLOCK2'
+Slack : 3.596
+TNS   : 0.000
+
+Type  : Slow Model Removal 'ADC_LCLK1'
+Slack : 5.930
+TNS   : 0.000
+
+Type  : Slow Model Removal 'ADC_LCLK2'
+Slack : 6.096
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'ADC_LCLK1'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'ADC_LCLK2'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLK_IN_P0'
+Slack : 6.502
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'ADC_FRAME_CK1'
+Slack : 10.990
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'ADC_FRAME_CK2'
+Slack : 10.990
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'MASTER_CLOCK'
+Slack : 10.990
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'MASTER_CLOCK2'
+Slack : 10.990
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'GXB_CK'
+Slack : 13.325
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Ck_60MHz_virt'
+Slack : -22.912
+TNS   : -1645.960
+
+Type  : Fast Model Setup 'CLK_IN_P0'
+Slack : -22.134
+TNS   : -25435.206
+
+Type  : Fast Model Setup 'Ck_40MHz_virt'
+Slack : -20.948
+TNS   : -80.894
+
+Type  : Fast Model Setup 'Ck_10MHz_virt'
+Slack : -20.525
+TNS   : -79.758
+
+Type  : Fast Model Setup 'MASTER_CLOCK'
+Slack : -16.877
+TNS   : -18580.850
+
+Type  : Fast Model Setup 'MASTER_CLOCK2'
+Slack : -16.729
+TNS   : -18404.730
+
+Type  : Fast Model Setup 'n/a'
+Slack : -12.333
+TNS   : -12.333
+
+Type  : Fast Model Setup 'ADC_LCLK2'
+Slack : -5.312
+TNS   : -167.869
+
+Type  : Fast Model Setup 'ADC_LCLK1'
+Slack : -5.268
+TNS   : -167.199
+
+Type  : Fast Model Setup 'ADC_FRAME_CK1'
+Slack : 2.930
+TNS   : 0.000
+
+Type  : Fast Model Setup 'ADC_FRAME_CK2'
+Slack : 2.961
+TNS   : 0.000
+
+Type  : Fast Model Hold 'Ck_60MHz_virt'
+Slack : -28.594
+TNS   : -533.838
+
+Type  : Fast Model Hold 'Ck_10MHz_virt'
+Slack : -6.533
+TNS   : -31.103
+
+Type  : Fast Model Hold 'Ck_40MHz_virt'
+Slack : -6.462
+TNS   : -24.190
+
+Type  : Fast Model Hold 'CLK_IN_P0'
+Slack : -0.454
+TNS   : -23.350
+
+Type  : Fast Model Hold 'ADC_LCLK1'
+Slack : -0.181
+TNS   : -0.334
+
+Type  : Fast Model Hold 'ADC_LCLK2'
+Slack : -0.163
+TNS   : -0.311
+
+Type  : Fast Model Hold 'MASTER_CLOCK2'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast Model Hold 'ADC_FRAME_CK2'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast Model Hold 'ADC_FRAME_CK1'
+Slack : 0.213
+TNS   : 0.000
+
+Type  : Fast Model Hold 'MASTER_CLOCK'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Fast Model Hold 'n/a'
+Slack : 2.350
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'ADC_LCLK2'
+Slack : -2.837
+TNS   : -28.260
+
+Type  : Fast Model Recovery 'ADC_LCLK1'
+Slack : -2.789
+TNS   : -27.890
+
+Type  : Fast Model Recovery 'ADC_FRAME_CK2'
+Slack : -2.421
+TNS   : -1452.600
+
+Type  : Fast Model Recovery 'ADC_FRAME_CK1'
+Slack : -2.403
+TNS   : -1441.800
+
+Type  : Fast Model Recovery 'MASTER_CLOCK'
+Slack : 4.635
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'CLK_IN_P0'
+Slack : 4.997
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'MASTER_CLOCK2'
+Slack : 10.364
+TNS   : 0.000
+
+Type  : Fast Model Removal 'ADC_FRAME_CK1'
+Slack : 1.016
+TNS   : 0.000
+
+Type  : Fast Model Removal 'ADC_FRAME_CK2'
+Slack : 1.034
+TNS   : 0.000
+
+Type  : Fast Model Removal 'CLK_IN_P0'
+Slack : 1.495
+TNS   : 0.000
+
+Type  : Fast Model Removal 'MASTER_CLOCK'
+Slack : 1.495
+TNS   : 0.000
+
+Type  : Fast Model Removal 'MASTER_CLOCK2'
+Slack : 1.495
+TNS   : 0.000
+
+Type  : Fast Model Removal 'ADC_LCLK1'
+Slack : 2.537
+TNS   : 0.000
+
+Type  : Fast Model Removal 'ADC_LCLK2'
+Slack : 2.566
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'ADC_LCLK1'
+Slack : 0.681
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'ADC_LCLK2'
+Slack : 0.681
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLK_IN_P0'
+Slack : 6.960
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'ADC_FRAME_CK1'
+Slack : 11.448
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'ADC_FRAME_CK2'
+Slack : 11.448
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'MASTER_CLOCK'
+Slack : 11.448
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'MASTER_CLOCK2'
+Slack : 11.448
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'GXB_CK'
+Slack : 14.000
+TNS   : 0.000
+
+------------------------------------------------------------

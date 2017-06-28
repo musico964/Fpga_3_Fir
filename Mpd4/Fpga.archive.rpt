@@ -1,0 +1,228 @@
+Archive Project report for Fpga
+Mon Sep 14 09:24:37 2015
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Mon Sep 14 09:24:37 2015 ;
+; Revision Name          ; Fpga                                  ;
+; Top-level Entity Name  ; Fpga                                  ;
+; Family                 ; Arria GX                              ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd4/Fpga3_Mpd4.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Fpga.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/programs/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 410 megabytes
+    Info: Processing ended: Mon Sep 14 09:24:37 2015
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:04
+
+
++----------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                     ;
++----------------------------------------------------------------------------------------------------+
+; File Name                                                                                          ;
++----------------------------------------------------------------------------------------------------+
+; ../Fir_Modules/add32.bsf                                                                           ;
+; ../Fir_Modules/add32.qip                                                                           ;
+; ../Fir_Modules/add32.v                                                                             ;
+; ../Fir_Modules/add32_bb.v                                                                          ;
+; ../Fir_Modules/fir_8tap.v                                                                          ;
+; ../Fir_Modules/fir_12tap.v                                                                         ;
+; ../Fir_Modules/multadd.bsf                                                                         ;
+; ../Fir_Modules/multadd.qip                                                                         ;
+; ../Fir_Modules/multadd.v                                                                           ;
+; ../Fir_Modules/multadd_bb.v                                                                        ;
+; ../Fir_Modules/multadd_logic.v                                                                     ;
+; ../Mpd_Common/AdcConfig.v                                                                          ;
+; ../Mpd_Common/AdcDeser.v                                                                           ;
+; ../Mpd_Common/AdcHisto.v                                                                           ;
+; ../Mpd_Common/Adder12.bsf                                                                          ;
+; ../Mpd_Common/Adder12.qip                                                                          ;
+; ../Mpd_Common/Adder12.v                                                                            ;
+; ../Mpd_Common/Adder12_bb.v                                                                         ;
+; ../Mpd_Common/ApvDataFifo_1024x12.bsf                                                              ;
+; ../Mpd_Common/ApvDataFifo_1024x12.qip                                                              ;
+; ../Mpd_Common/ApvDataFifo_1024x12.v                                                                ;
+; ../Mpd_Common/ApvDataFifo_1024x12_bb.v                                                             ;
+; ../Mpd_Common/ApvDataFifo_1024x13.bsf                                                              ;
+; ../Mpd_Common/ApvDataFifo_1024x13.qip                                                              ;
+; ../Mpd_Common/ApvDataFifo_1024x13.v                                                                ;
+; ../Mpd_Common/ApvDataFifo_1024x13_bb.v                                                             ;
+; ../Mpd_Common/ApvDataFifo_2048x12.bsf                                                              ;
+; ../Mpd_Common/ApvDataFifo_2048x12.qip                                                              ;
+; ../Mpd_Common/ApvDataFifo_2048x12.v                                                                ;
+; ../Mpd_Common/ApvDataFifo_2048x12_bb.v                                                             ;
+; ../Mpd_Common/ApvReadout.v                                                                         ;
+; ../Mpd_Common/ChannelProcessor.v                                                                   ;
+; ../Mpd_Common/DcFifo_32x12.bsf                                                                     ;
+; ../Mpd_Common/DcFifo_32x12.qip                                                                     ;
+; ../Mpd_Common/DcFifo_32x12.v                                                                       ;
+; ../Mpd_Common/DcFifo_32x12_bb.v                                                                    ;
+; ../Mpd_Common/DdrIn.bsf                                                                            ;
+; ../Mpd_Common/DdrIn.ppf                                                                            ;
+; ../Mpd_Common/DdrIn.qip                                                                            ;
+; ../Mpd_Common/DdrIn.v                                                                              ;
+; ../Mpd_Common/DdrIn_bb.v                                                                           ;
+; ../Mpd_Common/DpRam128x12.bsf                                                                      ;
+; ../Mpd_Common/DpRam128x12.qip                                                                      ;
+; ../Mpd_Common/DpRam128x12.v                                                                        ;
+; ../Mpd_Common/DpRam128x12_bb.v                                                                     ;
+; ../Mpd_Common/EventBuilder.v                                                                       ;
+; ../Mpd_Common/Fifo_16x24.bsf                                                                       ;
+; ../Mpd_Common/Fifo_16x24.qip                                                                       ;
+; ../Mpd_Common/Fifo_16x24.v                                                                         ;
+; ../Mpd_Common/Fifo_16x24_bb.v                                                                      ;
+; ../Mpd_Common/Fifo_16x48.bsf                                                                       ;
+; ../Mpd_Common/Fifo_16x48.qip                                                                       ;
+; ../Mpd_Common/Fifo_16x48.v                                                                         ;
+; ../Mpd_Common/Fifo_16x48_bb.v                                                                      ;
+; ../Mpd_Common/Fifo_256x13.bsf                                                                      ;
+; ../Mpd_Common/Fifo_256x13.qip                                                                      ;
+; ../Mpd_Common/Fifo_256x13.v                                                                        ;
+; ../Mpd_Common/Fifo_256x13_bb.v                                                                     ;
+; ../Mpd_Common/Fifo_2048x21.bsf                                                                     ;
+; ../Mpd_Common/Fifo_2048x21.qip                                                                     ;
+; ../Mpd_Common/Fifo_2048x21.v                                                                       ;
+; ../Mpd_Common/Fifo_2048x21_bb.v                                                                    ;
+; ../Mpd_Common/Fifo_2048x24.bsf                                                                     ;
+; ../Mpd_Common/Fifo_2048x24.qip                                                                     ;
+; ../Mpd_Common/Fifo_2048x24.v                                                                       ;
+; ../Mpd_Common/Fifo_2048x24_bb.v                                                                    ;
+; ../Mpd_Common/Gxb.qip                                                                              ;
+; ../Mpd_Common/Gxb.v                                                                                ;
+; ../Mpd_Common/i2c_master_bit_ctrl.v                                                                ;
+; ../Mpd_Common/i2c_master_byte_ctrl.v                                                               ;
+; ../Mpd_Common/i2c_master_top.v                                                                     ;
+; ../Mpd_Common/IntDivide.v                                                                          ;
+; ../Mpd_Common/OneShot.v                                                                            ;
+; ../Mpd_Common/SpRam_4096x32.qip                                                                    ;
+; ../Mpd_Common/SpRam_4096x32.v                                                                      ;
+; ../Mpd_Common/Sub13.bsf                                                                            ;
+; ../Mpd_Common/Sub13.qip                                                                            ;
+; ../Mpd_Common/Sub13.v                                                                              ;
+; ../Mpd_Common/Sub13_bb.v                                                                           ;
+; ../Mpd_Common/SyncReset.v                                                                          ;
+; ../Mpd_Common/TrigGen.v                                                                            ;
+; ./Fpga.sdc                                                                                         ;
+; ./GlobalPll.ppf                                                                                    ;
+; ./GlobalPll.qip                                                                                    ;
+; ./GlobalPll.v                                                                                      ;
+; ./GlobalPll_bb.v                                                                                   ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Fir_Modules/add32.qip              ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Fir_Modules/add32.v                ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Fir_Modules/fir_8tap.v             ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Fir_Modules/fir_12tap.v            ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Fir_Modules/multadd.qip            ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Fir_Modules/multadd.v              ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Fir_Modules/multadd_logic.v        ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/AdcConfig.v             ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/AdcDeser.v              ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/AdcHisto.v              ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Adder12.qip             ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Adder12.v               ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/ApvDataFifo_1024x12.qip ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/ApvDataFifo_1024x12.v   ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/ApvDataFifo_1024x13.qip ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/ApvDataFifo_1024x13.v   ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/ApvDataFifo_2048x12.qip ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/ApvDataFifo_2048x12.v   ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/ApvReadout.v            ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/ChannelProcessor.v      ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/DcFifo_32x12.qip        ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/DcFifo_32x12.v          ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/DdrIn.qip               ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/DdrIn.v                 ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/DpRam128x12.qip         ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/DpRam128x12.v           ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/EventBuilder.v          ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_16x24.qip          ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_16x24.v            ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_16x48.qip          ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_16x48.v            ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_256x13.qip         ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_256x13.v           ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_2048x21.qip        ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_2048x21.v          ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_2048x24.qip        ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Fifo_2048x24.v          ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Gxb.qip                 ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Gxb.v                   ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/i2c_master_bit_ctrl.v   ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/i2c_master_byte_ctrl.v  ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/i2c_master_defines.v    ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/i2c_master_top.v        ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/IntDivide.v             ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/OneShot.v               ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/SpRam_4096x32.qip       ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/SpRam_4096x32.v         ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Sub13.qip               ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/Sub13.v                 ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/SyncReset.v             ;
+; C:/Users/musico/Documents/INFN/Jlab12/Fpga_Mpd3_Mpd4/Fpga_3_Fir/Mpd_Common/TrigGen.v               ;
+; CK40_MUX.qip                                                                                       ;
+; CK40_MUX.v                                                                                         ;
+; CK40_MUX_bb.v                                                                                      ;
+; CompileTime.v                                                                                      ;
+; Fpga.qpf                                                                                           ;
+; Fpga.qsf                                                                                           ;
+; Fpga.sdc                                                                                           ;
+; Fpga_3.v                                                                                           ;
+; Fpga_020413.sdc                                                                                    ;
+; Fpga_assignment_defaults.qdf                                                                       ;
+; GlobalPll.qip                                                                                      ;
+; GlobalPll.v                                                                                        ;
+; incremental_db/compiled_partitions/Fpga.db_info                                                    ;
+; P0CK_Pll.ppf                                                                                       ;
+; P0CK_Pll.qip                                                                                       ;
+; P0CK_Pll.v                                                                                         ;
+; P0CK_Pll_bb.v                                                                                      ;
+; SaveCompileTime.tcl                                                                                ;
+; VmeSlaveIf.v                                                                                       ;
++----------------------------------------------------------------------------------------------------+
+
+
