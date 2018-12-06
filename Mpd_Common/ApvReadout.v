@@ -4,10 +4,10 @@
 // If the FIFO becomes FULL an ERROR is signalled and no forther writing are issued:
 // this will cause disalignmets!!!
 
-//`define DATA_FIFO_SIZE 11'd2047
-//`define DATA_FIFO_MSB_ADDR 10
-`define DATA_FIFO_SIZE 10'd1023
-`define DATA_FIFO_MSB_ADDR 9
+`define DATA_FIFO_SIZE 11'd2047
+`define DATA_FIFO_MSB_ADDR 10
+//`define DATA_FIFO_SIZE 10'd1023
+//`define DATA_FIFO_MSB_ADDR 9
 `define APV_EVENT_SIZE 10'd130
 `define SAMPLE_EVENT_SIZE 10'd2
 
@@ -96,8 +96,8 @@ Sub13 PedSubtracter(.dataa(data_plus_offset_logic), .datab({1'b0, PEDESTAL_DATA}
 IntDivide Divisor(.denom(n_channel), .numer(accumulator),
 	.quotient(logic_mean), .remain(logic_remainder));
 
-//ApvDataFifo_2048x12 DataFifo(
-ApvDataFifo_1024x13 DataFifo(
+ApvDataFifo_2048x12 DataFifo(
+//ApvDataFifo_1024x13 DataFifo(
 	.aclr(FIFO_CLEAR),
 	.data(fifo_data_in),
 	.rdclk(FIFO_RD_CLK),

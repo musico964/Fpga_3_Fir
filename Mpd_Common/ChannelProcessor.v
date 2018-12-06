@@ -69,8 +69,8 @@ assign threshold_rd_address = CH_ENABLE ? threshold_internal_address : RAM_ADDRE
 assign DATA_OUT = CH_ENABLE ? ( ApvReadoutMode_Processed ? output_fifo_data : {8'b0, decoded_frame_data}) :
 	(RE_PEDESTAL_RAM ? {9'b0,pedestal_data} : {9'b0,threshold_data});
 
-
-
+assign pedestal_data = 12'b0;
+/*
 DpRam128x12 PedestalRam( .clock(CLK),
 	.data(RAM_DATA_IN), .wraddress(RAM_ADDRESS), .wren(WE_PEDESTAL_RAM),
 	.rdaddress(pedestal_rd_address), .q(pedestal_data));
@@ -78,7 +78,7 @@ DpRam128x12 PedestalRam( .clock(CLK),
 DpRam128x12 ThresholdRam( .clock(CLK),
 	.data(RAM_DATA_IN), .wraddress(RAM_ADDRESS), .wren(WE_THRESHOLD_RAM),
 	.rdaddress(threshold_rd_address), .q(threshold_data));
-
+*/
 ApvReadout ApvFrameDecoder(.RSTb(RSTb), .CLK(CLK_APV), .ENABLE(CH_ENABLE), .ADC_PDATA(ADC_PDATA),
 	.SYNC_PERIOD(SYNC_PERIOD), .SYNCED(SYNCED), .ERROR(),
 	.FIFO_DATA_OUT(decoded_frame_data),
@@ -93,7 +93,7 @@ ApvReadout ApvFrameDecoder(.RSTb(RSTb), .CLK(CLK_APV), .ENABLE(CH_ENABLE), .ADC_
 	.OFFSET(COMMON_OFFSET), .MEAN(baseline), .RD_NEXT_MEAN(end_threshold_processing),
 	.MARKER_CH(MARKER_CH)
 	);
-
+/*
 BaselineSubtractorAndThresholdCut ThrSub(.RSTb(RSTb & ~ALL_CLEAR), .CLK(CLK),
 	.ENABLE_BASE_SUB(ENABLE_BASE_SUB),
 	.DATA_IN(decoded_frame_data), .FIFO_DATA_RD(decoded_frame_fifo_rd),
@@ -109,7 +109,7 @@ BaselineSubtractorAndThresholdCut ThrSub(.RSTb(RSTb & ~ALL_CLEAR), .CLK(CLK),
 FiveBitCounter EvCounter(.RSTb(RSTb & ~ALL_CLEAR), .CLK(CLK), .INC(end_threshold_processing),
 	.NON_ZERO(EVENT_PRESENT), .DEC(DECR_EVENT_COUNTER)
 	);
-
+*/
 endmodule
 
 

@@ -705,18 +705,13 @@ FifoVmeIf ApvVmeIf(.FIFO_RD(ApvFifo_read),
 	.ONE_THR(one_threshold), .ZERO_THR(zero_threshold),
 	.WE_PED_RAM(we_ped_ram), .RE_PED_RAM(re_ped_ram),
 	.WE_THR_RAM(we_thr_ram), .RE_THR_RAM(re_thr_ram),
-	.EV_BUILDER_DATA_OUT(EvBuilderDataOut), .EV_BUILDER_ENABLE(Enable_EventBuilder),
-	.EV_BUILDER_FIFO_EMPTY(EventBuilder_Empty), .EV_BUILDER_FIFO_FULL(EventBuilder_Full),
-	.EV_BUILDER_FIFO_WC(EventBuilder_Wc),
-	.EV_BUILDER_EV_CNT(EventBuilder_EvCnt),
-	.MARKER_CH(MarkerCh),
-	.COEFF_0(fir_coeff0), .COEFF_1(fir_coeff1), .COEFF_2(fir_coeff2), .COEFF_3(fir_coeff3),
-	.COEFF_4(fir_coeff4), .COEFF_5(fir_coeff5), .COEFF_6(fir_coeff6), .COEFF_7(fir_coeff7),
-	.COEFF_8(fir_coeff8), .COEFF_9(fir_coeff9), .COEFF_10(fir_coeff10), .COEFF_11(fir_coeff11),
-	.COEFF_12(fir_coeff12), .COEFF_13(fir_coeff13), .COEFF_14(fir_coeff14), .COEFF_15(fir_coeff15)
+	.EV_BUILDER_DATA_OUT(24'b0), .EV_BUILDER_ENABLE(1'b0),
+	.EV_BUILDER_FIFO_EMPTY(1'b1), .EV_BUILDER_FIFO_FULL(1'b0),
+	.EV_BUILDER_FIFO_WC(12'b0),
+	.EV_BUILDER_EV_CNT(24'b0),
+	.MARKER_CH(MarkerCh)
 	);
-
-	
+	/*
 EventBuilder TheBuilder(.RSTb(RSTb_sync), .TIME_CLK(time_clock), .CLK(Vme_clock),
 	.TRIGGER(trigger_pulse), .ALL_CLEAR(AllFifoClear|apv_reset101),
 	.ENABLE_MASK(ApvEnable), .ENABLE_EVBUILD(Enable_EventBuilder),
@@ -733,6 +728,6 @@ EventBuilder TheBuilder(.RSTb(RSTb_sync), .TIME_CLK(time_clock), .CLK(Vme_clock)
 	.DATA_OUT(EvBuilderDataOut), .EMPTY(EventBuilder_Empty), .FULL(EventBuilder_Full),
 	.DATA_OUT_CNT(EventBuilder_Wc), .DATA_OUT_RD(Enable_EventBuilder&ApvFifo_read[0]),
 	.EV_CNT(EventBuilder_EvCnt));
-
+*/
 endmodule
 
