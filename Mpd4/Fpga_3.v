@@ -481,7 +481,7 @@ AdcDeser AdcDeser0(.ADC_SDATA(ADC_DATA[7:0]), .LCLK(ADC_LCLK1), .ADCLK(ADC_FRAME
 AdcDeser AdcDeser1(.ADC_SDATA(ADC_DATA[15:8]), .LCLK(ADC_LCLK2), .ADCLK(ADC_FRAME_CK2),
 	.ADC_PDATA0(adc8), .ADC_PDATA1(adc9), .ADC_PDATA2(adc10), .ADC_PDATA3(adc11),
 	.ADC_PDATA4(adc12), .ADC_PDATA5(adc13), .ADC_PDATA6(adc14), .ADC_PDATA7(adc15));
-
+/*
 fir_16tap fir0(.CLK(ADC_FRAME_CK1), .ENABLE_FIR(enable_fir), .DATA_IN(adc0), .DATA_OUT(adcx0),
 	.COEFF_0(fir_coeff0), .COEFF_1(fir_coeff1), .COEFF_2(fir_coeff2), .COEFF_3(fir_coeff3),
 	.COEFF_4(fir_coeff4), .COEFF_5(fir_coeff5), .COEFF_6(fir_coeff6), .COEFF_7(fir_coeff7),
@@ -577,7 +577,7 @@ fir_16tap fir15(.CLK(ADC_FRAME_CK2), .ENABLE_FIR(enable_fir), .DATA_IN(adc15), .
 	.COEFF_4(fir_coeff4), .COEFF_5(fir_coeff5), .COEFF_6(fir_coeff6), .COEFF_7(fir_coeff7),
 	.COEFF_8(fir_coeff8), .COEFF_9(fir_coeff9), .COEFF_10(fir_coeff10), .COEFF_11(fir_coeff11),
 	.COEFF_12(fir_coeff12), .COEFF_13(fir_coeff13), .COEFF_14(fir_coeff14), .COEFF_15(fir_coeff15));
-/*
+*/
 assign adcx0 = adc0;
 assign adcx1 = adc1;
 assign adcx2 = adc2;
@@ -594,7 +594,7 @@ assign adcx12 = adc12;
 assign adcx13 = adc13;
 assign adcx14 = adc14;
 assign adcx15 = adc15;
-*/
+
 Histogrammer AdcHisto0(.LCLK(ADC_LCLK1), .ADCLK(ADC_FRAME_CK1),
 	.ADC_PDATA0(adcx0), .ADC_PDATA1(adcx1), .ADC_PDATA2(adcx2), .ADC_PDATA3(adcx3),
 	.ADC_PDATA4(adcx4), .ADC_PDATA5(adcx5), .ADC_PDATA6(adcx6), .ADC_PDATA7(adcx7),
